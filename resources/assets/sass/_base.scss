@@ -1,0 +1,35 @@
+/*====================
+Common styles
+=========================*/
+ul,ol{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+	transition: all .4s ease;
+	color: #000;
+
+	&:hover{
+		color: $primary-color;
+	}
+}
+
+/*When a tag stay inside header tag, then header's color set to the a tag*/
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
+	color: inherit;
+}
+
+
+
+
+
+
+
+
+/*====================
+Spacing
+=========================*/
+.header{
+	background-color: red;	
+}
